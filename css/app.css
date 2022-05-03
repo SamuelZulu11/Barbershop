@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+li,a,button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+img {
+    max-width:100%;
+    height: auto;
+    
+   
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+@media  (max-width:675px) {
+    .text-button {
+        align-items: center;
+    }
+    button {
+        align-items: center;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        align-items: center;
+    }
+   
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.nav_links li>a {
+    transition: all 0.3s ease 0s;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.nav_links li>a:hover {
+    color: #F2C05D;
+}
+
+button {
+    padding: 20px 39px;
+    background-color: #F2C05D;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.text-button {
+    color: #fff;
+}
+
+button:hover {
+    background: #000;
+    transition: all 0.3s ease 0s;
+}
+
+/**home page style */
+#home-image {
+    position: relative;
+    background: url(/img/home.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+}
+.cover-black {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(19, 19, 19, 0.58);
+    
+}
+
+.introd-text {
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    margin-top: 100px;
+    padding-left: 80px;
+   
+   
+}
+.introd-text h3 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 7.5%;
+    color: #F2C05D;
+    
+}
+.introd-text h1 {
+    font-size: 52px;
+    font-weight: 700;
+   
+}
+
+.introd-text p {
+    font-size: 18px;
+    font-family: 'Roboto'
+}
+
+/**about section style */
+.about_section img {
+    height: 666px;
+    width: 444px;
+}
+
