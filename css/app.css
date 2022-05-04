@@ -10,7 +10,7 @@ body {
 li,a,button {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 img {
@@ -21,28 +21,20 @@ img {
 }
 
 header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 10%;
 }
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+  }
 @media  (max-width:675px) {
-    .text-button {
-        align-items: center;
-    }
-    button {
-        align-items: center;
-    }
-    
-    header {
+    .nav-container {
         flex-direction: column;
     }
-
-    nav {
-        align-items: center;
+    header {
+        text-align: center;
     }
-   
+
 }
 
 .logo {
@@ -51,6 +43,9 @@ header {
 
 .nav_links {
     list-style: none;
+    display: flex;
+    justify-content: center
+    
 }
 
 .nav_links li {
@@ -68,13 +63,17 @@ header {
 .nav_links li>a:hover {
     color: #F2C05D;
 }
+@media  (max-width:675px) {
+    .nav_links {
+        flex-direction: column;
+    }
 
+}
 button {
-    padding: 20px 39px;
+    padding: 10px 39px;
     background-color: #F2C05D;
     border: none;
     border-radius: 50px;
-    
 }
 
 .text-button {
@@ -89,7 +88,7 @@ button:hover {
 /**home page style */
 #home-image {
     position: relative;
-    background: url(/img/home.jpg);
+    background: url(/img/home.jpg) no-repeat center center fixed;
     width: 100%;
     height: 85vh;
     background-size: cover;
@@ -109,8 +108,7 @@ button:hover {
     font-family: 'Roboto Condensed';
     margin-top: 100px;
     padding-left: 80px;
-   
-   
+    
 }
 .introd-text h3 {
     font-size: 24px;
@@ -122,7 +120,14 @@ button:hover {
 .introd-text h1 {
     font-size: 52px;
     font-weight: 700;
-   
+}
+@media  (max-width:675px) {
+    .introd-text h1 {
+        font-size: 30px;
+    }
+    .introd-text p {
+        text-align: center;
+    }
 }
 
 .introd-text p {
@@ -131,8 +136,54 @@ button:hover {
 }
 
 /**about section style */
+.about_section {
+    position: relative;
+    width: 100%;
+    padding: 50px 50px;
+    
+}
 .about_section img {
-    height: 666px;
-    width: 444px;
+    max-width: 100%;
+    height: auto;
+    
+}
+@media  (max-width:675px) {
+    .introd-text h1 {
+        font-size: 30px;
+    }
+    .about_section img {
+        margin-right: 30px;
+    }
+}
+.about-text {
+    width: 555px;
+}
+.about-text h3 {
+    font-size: 56px;
+    color: #F2C05D;
+    text-transform: capitalize;
+    margin-bottom: 30px;
 }
 
+.card {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/**services section( what we do) */
+.heading-row {
+    text-align: center;
+    padding: 20px;
+}
+.heading-row h2 {
+    font-size: 49px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed';
+    color: #F2C05D;
+    
+}
