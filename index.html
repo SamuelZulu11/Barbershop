@@ -227,10 +227,10 @@
             </div>
         </div>
     </section>
-    <!--Gallery for our work-->
+    <!--Gallery for our end here work-->
 
     <!--section of maps-->
-    <section class="maps-contact">
+    <section class="maps-contact" id="contact">
         <div class="wrapper-maps">
             <div class="info">
                 <div class="box-info">
@@ -252,35 +252,21 @@
                     <p>Saturday-Sunday 11:00 - 21:00</p>
                 </div>
                 <div class="social-links">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="/img/twitter.png" alt="">
+                    <img src="/img/instagram.png" alt="">
                 </div>
             </div>
             <!--the part of the maps-->
-            <div id="map"></div>
+            <div id="map">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=birminghan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">google map website embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+            </div>
         </div>
-        <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC21Sn-FYjQcNy3p3T7AYsZyLaETo23Gv8&callback=initMap"></script>
-        <script>
-             // Initialize and add the map
-                function initMap() {
-  
-            // The location of Geeksforgeeks office
-                const kingsman_office = {
-                    lat: 28.50231,
-                    lng: 77.40548
-                };
-
-            // Create the map, centered at gfg_office
-                const map = new google.maps.Map(
-                 document.getElementById("map"), {
-
-                // Set the zoom of the map
-                    zoom: 17.56,
-                     center: kgm_office,
-                });
-}
-        </script>
+        
     </section>
     <!--section of maps-->
+
+    <footer>
+        <p>&copy;2022 Nononini . All rights reserved by Kingsman</p>
+    </footer>
 </body>
 </html>

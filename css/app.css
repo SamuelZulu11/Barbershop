@@ -20,8 +20,6 @@ li,a,button {
 img {
     max-width:100%;
     height: auto;
-    
-   
 }
 
 header {
@@ -110,73 +108,108 @@ button:hover {
 .introd-text {
     color: #fff;
     font-family: 'Roboto Condensed';
-    margin-top: 100px;
-   
-    
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translateY(-30%);
+
 }
 .introd-text h3 {
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 7.5%;
     color: #F2C05D;
+    margin-bottom: 20px;
     
 }
 .introd-text h1 {
     font-size: 52px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 @media  (max-width:675px) {
     .introd-text h1 {
         font-size: 30px;
     }
     .introd-text p {
-        text-align: center;
+        text-align: left;
     }
 }
 
 .introd-text p {
     font-size: 18px;
-    font-family: 'Roboto'
+    font-family: 'Roboto';
+    margin-bottom: 20px;
 }
 
 /**about section style */
 .about_section {
-    position: relative;
     width: 100%;
-    padding: 50px 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
-.about_section img {
-    max-width: 100%;
+
+.about_section .card img {
     height: auto;
+    width: 600px;
+    max-width: 100%;
+    padding-top: 50px;
     
 }
-@media  (max-width:675px) {
-    .introd-text h1 {
-        font-size: 30px;
+@media  (max-width:1180px) {
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 70px 0px;
     }
-    .about_section img {
-        margin-right: 30px;
+}
+@media  (max-width:650px) {
+    .about_section .card img {
+        margin-bottom: 30px;
+    }
+   
+    .about-text h3 {
+        font-size: 60px;
+        margin-bottom: 25px;
     }
 }
 .about-text {
-    width: 555px;
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+
 }
 .about-text h3 {
-    font-size: 56px;
+    font-size: 46px;
     color: #F2C05D;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Condensed';
+}
+.about-text h5 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.about-text p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 28px;
+    letter-spacing: 2px;
 }
 
 .card {
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+   width: 1280px;
+   max-width: 95%;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
 }
 
 /**services section( what we do) */
@@ -187,6 +220,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 400px;
     
 }
 .services p {
@@ -221,21 +255,32 @@ button:hover {
     width: 320px;
    
 }
-
+@media (max-width:1166px) {
+    .service_section {
+        margin-top: 50px;
+    }
+}
+@media (max-width:400px) {
+    .service_section {
+        margin-top: -10px;
+    }
+}
 /**covid section start here */
 .covid-section {
-    position: relative;
     width: 100%;
-    padding: 50px 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .covid-card {
-    width: 1130px;
+    width: 1280px;
     max-width: 95%;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
 }
 .covid-card img {
     max-width: 100%;
@@ -290,9 +335,8 @@ button:hover {
 .number {
     color: #F2C05D;
     font-family: 'Roboto';
-    font-size: 69px;
+    font-size: 5vw;
     font-weight: 700;
-    margin-top: 58px;
     min-height: 81px;
 }
 
@@ -447,4 +491,79 @@ button:hover {
         flex: 100%;
         max-width: 100%;
     }
+}
+/**maps contact part */
+.maps-contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/img/green.jpg) no-repeat center;
+    background-size: cover;
+}
+.wrapper-maps {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.box-info {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+
+}
+.box-info h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 34px;
+    color: #F2C05D;
+    margin-bottom: 20px;
+}
+.box-info p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.social-links {
+    align-items: flex-start;
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-top: 11px;
+    min-width: 396px;
+}
+@media (max-width:991px) {
+    .maps-contact {
+        padding: 50px;
+    }
+    .wrapper-maps {
+        flex-direction: column;
+    }
+    .info {
+        margin-bottom: 40px;
+    }
+    .info {
+        width: 100%;
+    }
+}
+
+/**footer style */
+footer {
+    font-family: 'Roboto';
+    color: #fff;
+    background: #131313;
+    padding: 20px;
+    text-align: center;
 }
