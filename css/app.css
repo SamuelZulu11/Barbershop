@@ -231,7 +231,7 @@ button:hover {
 
 /**services section( what we do) */
 .service_section {
-    background: url(./../img/shape-service.png) no-repeat center;
+    background: url('./../img/shape-service.png') no-repeat center;
     font-family: 'Roboto Condensed';
     display: flex;
     justify-content: center;
@@ -353,7 +353,7 @@ button:hover {
 
 /**testimonial section */
 .testimonials-section {
-    background: url(./../img/testimonial.jpeg) no-repeat center center fixed;
+    background: url('./../img/testimonial.jpeg') no-repeat center center fixed;
     position: relative;
     width: 100%;   
 }
@@ -554,7 +554,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(./../img/green.jpg) no-repeat center;
+    background: url('./../img/green.jpg') no-repeat center;
     background-size: cover;
 }
 .wrapper-maps {
@@ -651,7 +651,7 @@ button:hover {
 
 .booking {
     height: 100vh;
-    background: url(./../img/book-bg.jpg) center no-repeat;
+    background: url('./../img/book-bg.jpg') center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -667,7 +667,7 @@ button:hover {
     
 }
 .book-image {
-    background: url(./../img/book-card.jpg) no-repeat center;
+    background: url('./../img/book-card.jpg') no-repeat center;
     background-size: cover
 }
 .booking h2 {
