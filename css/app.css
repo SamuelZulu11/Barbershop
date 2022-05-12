@@ -93,7 +93,7 @@ button:hover {
 /**home page style */
 #home-image {
     position: relative;
-    background: url('/img/home.jpg') no-repeat center center ;
+    background: url('img/home.jpg') no-repeat center center ;
     width: 100%;
     height: 85vh;
     background-size: cover;
