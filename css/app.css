@@ -53,18 +53,19 @@ header {
 .nav_links li>a:hover {
     color: #F2C05D;
 }
-button {
+.button {
     padding: 10px 39px;
     background-color: #F2C05D;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .text-button {
     color: #fff;
 }
-button:hover {
+.button:hover {
     background: #000;
     transition: all 0.3s ease 0s;
 }
@@ -331,7 +332,7 @@ button:hover {
 }
 .news-form {
     max-width: 1444px;
-    width: 100%;
+    
     padding: 30px;
 }
 .newsletter-heading h2 {
