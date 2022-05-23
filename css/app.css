@@ -29,10 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
   }
-
-
 .logo {
     cursor: pointer;
 }
@@ -180,20 +177,33 @@ header {
 .service_section {
     background: url('./../img/shape-service.png') no-repeat center;
     font-family: 'Roboto Condensed';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-top: 49px;   
 }
 .services p {
     font-family: 'Roboto';
     font-size: 23px;
 }
+.service-card p {
+    width: 200px;
+    height: 200px;
+}
+.service-card .cleaning {
+    width: 100px;
+    
+}
+.service-card .mens {
+    width: 200px;
+    
+}
+.service-card .blow {
+    width: 298px;
+    
+}
 .services h3 {
     font-family: 'Roboto Condensed';
     font-size: 36px;
     font-weight: 400;
+    padding-bottom: 8px;
+   
 }
 .service_section h2 {
     text-align: center;
@@ -203,20 +213,20 @@ header {
     font-family: 'Roboto Condensed';
     color: #F2C05D;
 }
-.services {
+
+.services-row-one {
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    width: 1200px;
-    margin-top: 30px;
-    margin-left: 100px;  
 }
-.service-card {
-    min-height: 220px;
-    width: 320px;
-   
+.services-row-two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 /**covid section start here */
 .covid-section {
     width: 100%;
@@ -437,7 +447,7 @@ header {
 .maps-contact {
     position: relative;
     min-height: 100vh;
-    padding: 50px 100px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -452,6 +462,8 @@ header {
     align-items: center;
     margin-top: 30px;
 }
+
+
 .info {
     width: 50%;
     display: flex;
@@ -607,6 +619,7 @@ footer {
     .nav_links {
         flex-direction: column;
     }
+    
 }
 @media  (max-width:675px) {
     .introd-text h1 {
@@ -635,6 +648,17 @@ footer {
 @media (max-width:1166px) {
     .service_section {
         margin-top: 50px;
+    }
+}
+@media (max-width:930px) {
+    .services {
+        text-align: center;
+    }
+    .services-row-one {
+        flex-direction: column;   
+    }
+    .services-row-two {
+        flex-direction: column;   
     }
 }
 @media  (max-width:675px) {
@@ -666,9 +690,6 @@ footer {
     }
 }
 @media (max-width:991px) {
-    .maps-contact {
-        padding: 50px;
-    }
     .wrapper-maps {
         flex-direction: column;
     }
