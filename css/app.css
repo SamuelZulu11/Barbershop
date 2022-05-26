@@ -48,11 +48,11 @@ header {
     text-decoration: none;
 }
 .nav_links li>a:hover {
-    color: #F2C05D;
+    color: #8f7247;
 }
 .button {
     padding: 10px 39px;
-    background-color: #F2C05D;
+    background-color: #8f7247;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -106,14 +106,14 @@ header {
     font-weight: 700;
     margin-bottom: 20px;
     color: transparent;
-    -webkit-text-stroke: 3px #F2C05D;
+    -webkit-text-stroke: 3px #8f7247;
 }
 .introd-text h1::before {
     content: attr(data-fill-text);
     position: absolute;
     width: 0;
     height: 100%;
-    color: #F2C05D;
+    color: #8f7247;
     -webkit-text-stroke: 0px transparent;
     overflow: hidden;
     transition: width 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -147,7 +147,7 @@ header {
 }
 .about-text h3 {
     font-size: 46px;
-    color: #F2C05D;
+    color: #8f7247;
     text-transform: capitalize;
     margin-bottom: 20px;
     font-family: 'Roboto Condensed';
@@ -211,7 +211,7 @@ header {
     font-size: 49px;
     font-weight: bold;
     font-family: 'Roboto Condensed';
-    color: #F2C05D;
+    color: #8f7247;
 }
 
 .services-row-one {
@@ -276,7 +276,7 @@ header {
     font-weight: 800;
 }
 .number {
-    color: #F2C05D;
+    color: #8f7247;
     font-family: 'Roboto';
     font-size: 50px;
     font-weight: 700;
@@ -295,7 +295,7 @@ header {
     font-size: 49px;
     font-weight: bold;
     font-family: 'Roboto Condensed';
-    color: #F2C05D;
+    color: #8f7247;
 }
 .wrapper-testimonials {
     width: 100%;
@@ -314,7 +314,7 @@ header {
     position: relative;
 }
 .profile-testimonials h2 {
-    color: #F2C05D;
+    color: #8f7247;
     font-size: 26px;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -346,7 +346,7 @@ header {
     padding: 30px;
 }
 .newsletter-heading h2 {
-    color: #F2C05D;
+    color: #8f7247;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -407,7 +407,7 @@ header {
 
     font-size: 25px;
     border: 0px;
-    background-color: #F2C05D;
+    background-color: #8f7247;
     color: #fff;
     cursor: pointer;
     border-radius: 3px;
@@ -422,7 +422,7 @@ header {
     font-weight: 800;
     font-size: 40px;
     font-family: 'Roboto Condensed';
-    color: #F2C05D;
+    color: #8f7247;
     padding: 30px;
 }
 .gallery-row {
@@ -479,7 +479,7 @@ header {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 34px;
-    color: #F2C05D;
+    color: #8f7247;
     margin-bottom: 20px;
 }
 .box-info p {
@@ -515,7 +515,7 @@ header {
 }
 .partners h2 {
     font-family: 'Roboto Condensed';
-    color: #F2C05D;
+    color: #8f7247;
     font-size: 40px;
     margin-bottom: 20px;
     padding-bottom: 5px;
@@ -558,7 +558,7 @@ header {
     font-size: 40px;
     padding-bottom: 40px;
     margin-bottom: 20px;
-    color: #F2C05D;
+    color: #8f7247;
 }
 .book-content {
     background: #fff;
@@ -590,7 +590,7 @@ header {
 }
 .input-button {
     padding: 10px 39px;
-    background-color: #F2C05D;
+    background-color: #8f7247;
     border: none;
     color: #fff;
 }
