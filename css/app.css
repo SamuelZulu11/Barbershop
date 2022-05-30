@@ -329,7 +329,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
     width: 100px;
-    height: 100px;  
+    height: 100px;
 }
 .imgbox img {
     width: 100px;
@@ -546,7 +546,6 @@ header {
 .book-card {
     display: grid;
     grid-template-columns: 420px 420px ;
-    
 }
 .book-image {
     background: url('./../img/book-card.webp') no-repeat center;
