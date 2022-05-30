@@ -322,6 +322,7 @@ header {
 }
 .container-testimonials p {
     text-align: center;
+    color: #000;
 }
 .imgbox {
     position: absolute;
